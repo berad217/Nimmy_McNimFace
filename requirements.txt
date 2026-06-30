@@ -1,0 +1,8 @@
+openai>=1.40          # shapes 1: chat, vision, embeddings
+requests>=2.31        # shape 2: rerank, image gen
+python-dotenv>=1.0    # auto-load .env
+pillow>=10.0          # demo 06 only: render a sample document to parse
+questionary>=2.0      # menu.py: interactive terminal model picker
+
+# Demo 05 (speech / Parakeet) only -- uncomment when you run it:
+# nvidia-riva-client>=2.15

@@ -1,0 +1,13 @@
+# Secrets -- the one file that must NEVER be committed. Your nvapi- key lives here.
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated demo outputs (regenerable; not source)
+out.png
+flux_out.png
+*.wav
