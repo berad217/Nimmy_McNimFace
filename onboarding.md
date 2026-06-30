@@ -20,8 +20,14 @@ stay tiny. This is the toolkit other projects (e.g. caption_lab) import for NIM 
   into another project.
 - **[docs/DEVLOG.md](docs/DEVLOG.md)** — what was built and why; append a dated entry per
   meaningful session.
+- **[docs/.agents/current-handover.md](docs/.agents/current-handover.md)** — ephemeral delta:
+  what's in-flight or unverified right now. Read in full (it's short); keep it lean.
+- **[TASKS.md](TASKS.md)** — Active / Someday / Done queue. The Active list is the forward plan.
 - **[nim.py](nim.py)** — the whole library. Read its module docstring first; every model
   slug and REST path is a named constant, so churn is a one-line fix.
+
+This repo is **self-contained** — it does not depend on The_Lab's docs or memory. A session
+started here as cwd has everything it needs in these files (plus Brad's user-global CLAUDE.md).
 
 **Personal style for this human** lives in his global Claude memory
 (`C:\Users\Brad\.claude\CLAUDE.md`): systems/first-principles thinker, wants direct feedback
